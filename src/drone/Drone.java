@@ -14,4 +14,10 @@ public class Drone {
 		System.out.println("Drone is on.");
 	}
 	
+	public void powerOff() {
+		isOn = false;
+		
+		System.out.println("Drone is off.");
+	}
+	
 }
